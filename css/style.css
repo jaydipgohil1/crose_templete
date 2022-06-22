@@ -1,0 +1,198 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+html,
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+/* hr{
+    border: none;
+    border-top: 1px solid lightgray;
+    margin: 20px 0;
+    
+} */
+.row,
+.header {
+    overflow-x: hidden;
+
+}
+
+.row-padding-0-8 {
+    padding: 0 8px;
+
+}
+
+.margin-top-16 {
+    margin-top: 16px !important;
+}
+
+body {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    background-color: rgba(240, 248, 255, 0.857);
+}
+
+html {
+    /* border-top:10px solid rgba(211, 211, 211, 0.833);
+    border-bottom:10px solid rgba(211, 211, 211, 0.833); */
+}
+
+/* section -1 */
+
+.tm-section-1 {
+    height: 433px;
+    /* background-image: url(../img/spot-bg-01.jpg); */
+    background-color: white;
+    background-size: cover;
+    /* -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 82%, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 82%, 0px 100%); */
+    /* background-position: center -95px; */
+    /* background-repeat: no-repeat; */
+    padding-top: 27px;
+}
+
+.tm-section-2 {
+    height: fit-content;
+    /* background-image: url(../img/spot-bg-01.jpg); */
+    /* background-color: white; */
+    background-size: cover;
+    /* -webkit-clip-path: polygon(0px 131px, 100% 0px, 100% 70%, 0px 90%);
+    clip-path: polygon(0px 131px, 100% 0px, 100% 70%, 0px 90%); */
+    /* background-position: center -95px; */
+    /* background-repeat: no-repeat; */
+    margin-top: -131px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+#s2,#s2-bottom,#s3{
+    -webkit-clip-path: polygon(0px 131px, 100% 0px, 100% 90%, 0px 100%);
+    clip-path: polygon(0px 131px, 100% 0px, 100% 90%, 0px 100%);
+}
+
+
+.volume-up {
+    margin-left: 4%;
+}
+
+.volume-up,
+.right-t,
+.right-f {
+    font-size: 20px;
+    color: gray;
+}
+
+.right-t,
+.right-f,
+.verticle-line {
+    float: right;
+}
+
+.right-t {
+    margin-right: 4%;
+}
+
+.right-f {
+    /* margin-right: 13px; */
+}
+
+.verticle-line {
+    font-size: 20px;
+    color: gray;
+  
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+    height: 16px;
+
+}
+.s2-p
+{
+    width:40%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+}
+.s2-i
+{
+    font-size: 100px;
+    height: 25px;
+    color: white;
+}
+.p-icon-text
+{
+    margin: 10px !important;
+}
+.row-icon
+{
+    /* width: 95% !important;
+    margin-left: auto;
+    margin-right: auto; */
+}
+/* section 2 end */
+
+/* section 2 small */
+.tm-section-small
+{
+    height: 210px;
+    width: 100%;
+    /* background-image: url(../img/spot-bg-01.jpg); */
+    background-color: rgb(57, 139, 201);
+    background-size: cover;
+    /* -webkit-clip-path: polygon(0px 131px, 100% 0px, 100% 100%, 0px 100%);
+    clip-path: polygon(0 106px, 151% -57px, 101% 43%, 0px 100%); */
+    -webkit-clip-path: polygon(0px 123px, 100% 0px, 100% 47%, 0px 100%);
+    clip-path: polygon(0px 123px, 100% 0px, 100% 47%, 0px 100%);
+    /* background-position: center -95px; */
+    /* background-repeat: no-repeat; */
+    margin-top: -158px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.tm-section-3
+{
+    height: 210px;
+    width: 100%;
+    /* background-image: url(../img/spot-bg-01.jpg); */
+    background-color: rgb(255, 51, 153);
+    background-size: cover;
+    /* -webkit-clip-path: polygon(0px 131px, 100% 0px, 100% 100%, 0px 100%);
+    clip-path: polygon(0 106px, 151% -57px, 101% 43%, 0px 100%); */
+    /* -webkit-clip-path: polygon(0px 123px, 100% 0px, 100% 47%, 0px 100%);
+    clip-path: polygon(0px 123px, 100% 0px, 100% 47%, 0px 100%); */
+    /* background-position: center -95px; */
+    /* background-repeat: no-repeat; */
+    margin-top: -158px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
